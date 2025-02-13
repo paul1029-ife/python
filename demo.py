@@ -85,7 +85,6 @@ def perform_linear_regression(file_path):
         mse = mean_squared_error(y_test, y_pred_rounded)
         accuracy = accuracy_score(y_test, y_pred_rounded)
         print(f"\nModel Performance:")
-        print(f"Mean Squared Error: {mse:.4f}")
         print(f"Accuracy: {accuracy:.2%}")
 
     except Exception as e:
